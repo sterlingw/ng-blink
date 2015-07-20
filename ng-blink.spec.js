@@ -1,15 +1,30 @@
-/* global describe, beforeEach, expect, module, injector, it */
+/* global describe, beforeEach, expect, module, inject, it, angular, spyOn */
 
 describe('ng-blink', function () {
-  var blink
+  var element,
+    $scope,
+    $timeout
   beforeEach(module('ngBlink'))
-  beforeEach(injector(function (_blink_) {
-    blink = _blink_
+  beforeEach(inject(function ($compile, $rootScope, _$timeout_) {
+    $scope = $rootScope
+    $timeout = _$timeout_
+    element = angular.element('<blink></blink>')
+    $compile(element)($rootScope)
   }))
 
-  describe('', function () {
-    it('should be true', function () {
-      expect(true).toBe(true)
+  describe('$scope', function () {
+    it('should define $scope.speed', function () {
+      $scope.$digest()
+      expect($scope.speed).toBeDefined()
+    })
+    describe('#stop', function () {
+      it('should call $timeout.cancel', function () {
+        spyOn($timeout, 'cancel')
+
+        $scope.stop()
+
+        expect($timeout.cancel).toHaveBeenCalled()
+      })
     })
   })
 })
