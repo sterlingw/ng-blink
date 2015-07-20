@@ -1,6 +1,6 @@
 {
   "name": "ngblink",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "<blink> tag for AngularJS",
   "main": "ng-blink.js",
   "scripts": {
