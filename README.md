@@ -2,11 +2,11 @@
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 ##Installation
 ```
-npm install ng-blink
+npm install ngblink
 ```
 or
 ```
-bower install ng-blink
+bower install ngblink
 ```
 
 ##Usage
