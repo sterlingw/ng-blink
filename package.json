@@ -1,0 +1,28 @@
+{
+  "name": "ng-blink",
+  "version": "0.0.0",
+  "description": "~",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sterlingw/ng-blink.git"
+  },
+  "keywords": [
+    "blink",
+    "ngblink",
+    "ng-blink",
+    "angular",
+    "blink",
+    "blink",
+    "tag"
+  ],
+  "author": "Sterling Whitley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterlingw/ng-blink/issues"
+  },
+  "homepage": "https://github.com/sterlingw/ng-blink"
+}
