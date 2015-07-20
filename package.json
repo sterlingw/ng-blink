@@ -1,8 +1,8 @@
 {
-  "name": "ng-blink",
-  "version": "0.0.0",
+  "name": "ngblink",
+  "version": "0.0.1",
   "description": "~",
-  "main": "index.js",
+  "main": "ng-blink.js",
   "scripts": {
     "test": "karma run"
   },
