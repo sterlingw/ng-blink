@@ -1,7 +1,7 @@
 {
   "name": "ngblink",
-  "version": "0.0.1",
-  "description": "~",
+  "version": "0.0.2",
+  "description": "<blink> tag for AngularJS",
   "main": "ng-blink.js",
   "scripts": {
     "test": "karma run"
@@ -14,10 +14,8 @@
     "blink",
     "ngblink",
     "ng-blink",
-    "angular",
-    "blink",
-    "blink",
-    "tag"
+    "angular blink",
+    "blink tag"
   ],
   "author": "Sterling Whitley",
   "license": "MIT",
